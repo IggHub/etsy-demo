@@ -9,7 +9,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~>1.2'
+gem 'jbuilder', "~> 2.6.0"
 gem "paperclip", "~> 5.0.0"
 
 

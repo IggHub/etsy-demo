@@ -11,7 +11,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', "~> 2.6.0"
 gem "paperclip", "~> 5.0.0"
-
+gem 'aws-sdk', '~> 2.3'
+gem 'figaro'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platform: :mri

@@ -10,10 +10,14 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', "~> 2.6.0"
-gem "paperclip", "~> 5.0.0"
-gem 'aws-sdk', '~> 2.3'
 gem 'figaro'
 gem 'devise'
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+gem "fog-aws"
+### Use carrierwave instead ###
+#gem "paperclip", "~> 5.0.0"
+#gem 'aws-sdk', '~> 2.3'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri

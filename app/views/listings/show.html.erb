@@ -23,6 +23,9 @@
       <strong>Price:</strong>
       <%= number_to_currency(@listing.price) %>
     </p>
+    <div class="center">
+      <%= link_to "Buy now", new_listing_order_path(@listing), class: "btn btn-primary" %>
+    </div>
   </div>
 </div>
 

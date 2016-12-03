@@ -15,6 +15,7 @@ gem 'devise'
 gem 'mini_magick'
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 gem "fog-aws"
+gem 'stripe'
 ### Use carrierwave instead ###
 #gem "paperclip", "~> 5.0.0"
 #gem 'aws-sdk', '~> 2.3'
